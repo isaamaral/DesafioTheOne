@@ -7,5 +7,5 @@ const server = http.createServer(app);
 
 server.listen(port);
 
-const message = 'Chora boy...';
+const message = 'Servidor iniciado';
 console.log(message + port);
