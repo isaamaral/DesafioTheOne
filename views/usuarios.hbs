@@ -1,0 +1,11 @@
+<header>
+  <h1 class="text-center"> Candidatos </h1>
+</header>
+<main>
+  {{#each pessoas}}
+  <div class="bg-secondary text-light">
+  <p> {{this.nome}}</p>
+  <p> Email: {{this.email}}, Telefone: {{this.telefone}}, Endereço: {{this.endereco}}</p>
+  </div>
+{{/each}}
+</main>

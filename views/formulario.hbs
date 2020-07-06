@@ -1,0 +1,47 @@
+<section class ="section">
+    <header>
+        <h1 class="text-center text-info mt-2">
+            Faça seu cadastro
+        </h1>
+    </header>
+    <main class="m-3">
+        <form name ="cadastro" action="cadastro/" method="POST">
+        <div class="form-row">
+            <label for="nome" class="col-0.5"> Nome: </label>
+            <input type="text" id="nome" name="nome" class="col-5 form-control" required>
+            <label for="data de nascimento" class="col-1.5"> Data de Nascimento: </label>
+            <input type="date" id="nasc" name="nasc" class="col-2 form-control" required>
+            <label for="cpf" class="col" class="col-0.5"> CPF: </label>
+            <input type="number" id="cpf" name="cpf" class="col-2 form-control" required>
+        </div>
+        <div class="form-row">
+            <label for="email" class="col-0.5"> Email: </label>
+            <input type="email" id="email" name="email" class="col-4 form-control" required>
+            <label for="telefone" class="col-2"> Telefone para contato:</label>
+            <input type="tel" id="tel" name="tel" class="col-5 form-control">
+        </div>
+            <p class="font-weight-bold mt-2"> Endereço </p>
+        <div class="form-row">
+            <label for="rua" class="col-0.5"> Rua: </label>
+            <input type="text" id="rua" name="rua" class="col-4 form-control" required>
+            <label for="numero" class="col-1"> Número: </label>
+            <input type="number" id="numero" name="numero" class="col-1 form-control" required>
+            <label for="cidade" class="col-1"> Cidade: </label>
+            <input type="text" id="cidade" name="cidade" class="col-3 form-control" required>
+        </div>
+            <p class="font-weight-bold mt-2"> Formação </p>
+        <div class="form-row">
+            <label for="curso" class="col-0.5"> Curso: </label>
+            <input type="text" id="curso" name="curso" class="col-3 form-control" required>
+            <label for="formatura" id="formatura" name="formatura" class="col-1"> Formatura: </label>
+            <input type="date" class="col-3 form-control" required>
+        </div>
+            <label for="message"> Gostaria de nos contar mais alguma coisa? </label>
+            <textarea name="message" id="message" class="form-control"></textarea>
+            <p class="mt-2"> Anexe aqui seu currículo. </p>
+            <input type="file" id="curriculo" class="form-control-file btn btn-light"> 
+
+            <button class="btn btn-info"> Enviar </button>
+        </form>
+    </main>
+</section>

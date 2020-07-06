@@ -1,0 +1,21 @@
+{
+  "name": "desafio-theone",
+  "version": "1.0.0",
+  "description": "Desafio da entrevista The One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "desafio-the-one"
+  },
+  "author": "Isabelle Marques",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.5",
+    "mongoose": "^5.9.21",
+    "node": "^14.5.0"
+  }
+}
